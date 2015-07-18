@@ -1,0 +1,12 @@
+
+vec3 filter(vec3 color, sampler2D texture, vec2 texturePos) {
+	float luminosity = dot(color, vec3(0.21, 0.72, 0.07));
+	float brightGray = brightness(vec3(luminosity), 0.234375).r;
+	
+	vec3 tinted = overlay(vec3(0.419, 0.259, 0.047), vec3(brightGray), 1.0);
+	
+	float invertMask = 1.0 - luminosity;
+	float luminosity3 = pow(luminosity, 3.0);
+	
+	return vec3(luminosity3) + (tinted * invertMask * (luminosity + 1.0));
+}

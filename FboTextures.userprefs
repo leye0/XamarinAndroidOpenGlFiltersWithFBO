@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="FboTextures\FboTextures.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (Jelly Bean) 16" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FboTextures\Resources\raw\copy_oes_fs.txt">
+    <Files>
+      <File FileName="FboTextures\MainActivity.cs" Line="1" Column="1" />
+      <File FileName="FboTextures\InstaCamRenderer.cs" Line="260" Column="41" />
+      <File FileName="FboTextures\InstaCamCamera.cs" Line="1" Column="1" />
+      <File FileName="FboTextures\InstaCamData.cs" Line="1" Column="1" />
+      <File FileName="FboTextures\InstaCamShader.cs" Line="1" Column="1" />
+      <File FileName="FboTextures\Resources\raw\copy_oes_fs.txt" Line="20" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\leon.pelletier.APCURIUM\Documents\Projects\FboTextures\FboTextures\InstaCamRenderer.cs" line="294" column="1" />
+      <Breakpoint file="C:\Users\leon.pelletier.APCURIUM\Documents\Projects\FboTextures\FboTextures\InstaCamCamera.cs" line="93" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FboTextures AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

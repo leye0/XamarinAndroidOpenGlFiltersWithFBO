@@ -1,0 +1,12 @@
+
+vec3 filter(vec3 color, sampler2D texture, vec2 texturePos) {
+	color = brightness(color, 0.4724);
+	color = contrast(color, 0.3149);
+	
+	color.g = color.g * 0.87 + 0.13;
+	color.b = color.b * 0.439 + 0.561;
+	
+	color *= vec3(0.981, 0.862, 0.686);
+	
+	return color;
+}

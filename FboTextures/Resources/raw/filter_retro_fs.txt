@@ -1,0 +1,9 @@
+
+vec3 filter(vec3 color, sampler2D texture, vec2 texturePos) {
+	float gray = dot(color, vec3(0.299, 0.587, 0.114));		
+	color = overlay(vec3(gray), color, 1.0);
+	color = multiplyWithAlpha(vec3(0.984, 0.949, 0.639), 0.588235, color);
+	color = screenPixelComponent(vec3(0.909, 0.396, 0.702), 0.2, color);
+	color = screenPixelComponent(vec3(0.035, 0.286, 0.914), 0.168627, color);
+	return color;
+}
